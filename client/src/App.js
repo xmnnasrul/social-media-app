@@ -1,6 +1,6 @@
 import Home from "./pages/home/Home";
 import Profile from "./pages/Profile/Profile";
-
+import Auth from "./pages/Auth/Auth";
 //CSS
 import "./App.css";
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <div className="blur" style={{ top: "36%", right: "-8rem" }}></div>
       {/* <Home /> */}
       <Profile />
+      {/* <Auth /> */}
     </div>
   );
 }
