@@ -1,4 +1,5 @@
 import React from "react";
+import FolowersCard from "../FollowersCard/FollowersCard";
 import LogoSearch from "../LogoSearch/LogoSearch";
 import ProfileCard from "../ProfileCard/ProfileCard";
 
@@ -12,8 +13,8 @@ const ProfileSide = () => {
         <div className="ProfileSide">
             <LogoSearch />
             <ProfileCard />
+            <FolowersCard />
         </div>
     )
 }
 export default ProfileSide;
-// 39:12
